@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+.card{
+    width: 180px;
+    margin: 50px;
+    height: 100px;
+    display: flex;
+       flex-direction: column;
+    .heading{
+        padding: 7px;
+        background-color: aliceblue;
+    }
+    .btn-{
+        height: 100%;
+       margin-left: 10px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+    }
+ }
+ .card1{
+    width: 180px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+    .heading{
+        padding: 7px;
+        background-color: aliceblue;
+    }
+    .btn-{
+        height: 100%;
+       margin-left: 10px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+    }
+}

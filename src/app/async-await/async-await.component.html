@@ -1,0 +1,30 @@
+<div class="m-3">
+    <p>Async-- async keyword with function alway return promise.</p>
+    <hr>
+</div>
+<div class="btn mx-3">
+    <button class="btn btn-primary" (click)="clickMe()">Click Me</button>
+    <h6 class="my-3">See in console</h6>
+</div>
+<hr>
+<hr>
+<div class="row mx-3">
+    <div class="col-md-4">
+        <strong>Ex - 1. With promise</strong><br><hr>
+        <div class="btn "><button class="btn btn-primary" (click)="fetch1()" >Click</button></div><hr>
+        <div id="result1">result1</div>
+        
+    </div>
+    <div class="col-md-4">
+        <strong>Ex - 2. With async / await</strong><br><hr>
+        <div class="btn "><button class="btn btn-primary" (click)="fetch2()" >Click</button></div><hr>
+        <div id="result2">result2</div>
+        
+    </div>
+    <div class="col-md-4">
+        <strong>Ex - 3. With fetch API</strong><br><hr>
+        <div class="btn "><button class="btn btn-primary" (click)="fetch3()">Click</button></div><hr>
+        <div id="result3"><p>result3</p></div>
+        
+    </div>
+</div>
